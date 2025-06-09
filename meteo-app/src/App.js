@@ -1,13 +1,15 @@
-import Weather from "./components/wheater";
-
+import Weather from "./components/weather";
+import React from "react";
+    
 function App() {
   return (
-    <div>
+    <div> 
       <h1>AppMeteo</h1>
-      <Weather/>
+      <Weather />
     </div>
   );
 }
+
 
 
 export default App;
